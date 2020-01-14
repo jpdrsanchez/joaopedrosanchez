@@ -91,3 +91,8 @@ body {
   width: 30px;
   margin: 0 auto;
 }
+
+.stop-scrolling { 
+    height: 100%; 
+    overflow: hidden; 
+} 
