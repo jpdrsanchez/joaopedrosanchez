@@ -34,19 +34,7 @@
 }
 
 .main__button {
-  margin: 5px auto;
-  color: #f5f6f6;
-  display: block;
-  font-size: 1.125rem;
-  font-weight: 700;
-  letter-spacing: .2rem;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 20px 5px;
-  border: 3px solid currentColor;
-  border-radius: 10px;
-  width: 210px;
-  transition: .3s ease;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 576px) {
@@ -60,10 +48,5 @@
 
   .main__button {
     margin: 5px 15px;
-    flex-direction: row;
   }
-}
-
-.main__button:hover {
-  letter-spacing: .5rem;
 }
