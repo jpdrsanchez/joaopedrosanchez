@@ -50,7 +50,7 @@ body {
   }
 }
 
-.titulo {
+.title {
   color: #1a1a1a;
   /* font-family: 'Pulsar'; */
   font-size: 3rem;
@@ -60,7 +60,7 @@ body {
   text-transform: uppercase;
 }
 
-.titulo::after {
+.title::after {
   content: "";
   display: block;
   background: #1a1a1a;
@@ -70,15 +70,15 @@ body {
   border-radius: 5px;
 }
 
-.titulo--white {
-  color: #f1f1f1;
+.title--white {
+  color: #fdfdfd;
 }
 
-.titulo--white::after {
-  background: #f1f1f1;
+.title--white::after {
+  background: #fdfdfd;
 }
 
-.subtitulo {
+.subtitle {
   font-size: 1.125rem;
   font-weight: bold;
   letter-spacing: .2rem;

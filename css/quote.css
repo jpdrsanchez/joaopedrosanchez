@@ -30,7 +30,7 @@
   }
 }
 
-.quote__texto {
+.quote__text {
   color: #f1f1f1;
   font-family: 'Alice', serif;
   font-size: 2rem;
@@ -40,19 +40,19 @@
 }
 
 @media (min-width: 992px) {
-  .quote__texto {
+  .quote__text {
     font-size: 2.5rem;
   }
 }
 
 @media (min-width: 1200px) {
-  .quote__texto {
+  .quote__text {
     font-size: 3rem;
   }
 }
 
 
-.quote__autor {
+.quote__author {
   color: #f1f1f1;
   font-size: 1.125rem;
   font-weight: bold;
