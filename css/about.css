@@ -1,34 +1,15 @@
-.sobre {
+.about {
   background: #f1f1f1;
   padding: 60px 15px;
 }
 
-.sobre__titulo {
-  color: #1a1a1a;
-  font-family: 'Pulsar';
-  font-size: 3rem;
-  font-weight: 600;
-  letter-spacing: .2rem;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.sobre__titulo::after {
-  content: "";
-  display: block;
-  background: #1a1a1a;
-  width: 100px;
-  height: 4px;
-  margin: 10px auto 60px auto;
-}
-
-.sobre__container {
+.about__container {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
 }
 
-.sobre__imagem {
+.about__image {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(204, 204, 204, .5);
   flex: 1 1 400px;
@@ -36,48 +17,48 @@
   margin-bottom: 40px;
 }
 
-.sobre__texto {
+.about__text {
   color: #1a1a18;
   flex: 3 1 300px;
 }
 
-.sobre__paragrafo {
+.about__paragraph {
   font-size: 1rem;
   line-height: 1.4;
   text-align: justify;
 }
 
 @media (min-width: 768px) {
-  .sobre__imagem {
+  .about__image {
     margin-right: 15px;
   }
 
-  .sobre__texto {
+  .about__text {
     margin-left: 15px;
   }
 
-  .sobre__paragrafo {
+  .about__paragraph {
     font-size: 1.125rem;
     padding-right: 50px;
   }
 }
 
-.sobre__paragrafo + .sobre__paragrafo {
+.about__paragraph + .about__paragraph {
   margin-top: 20px;
 }
 
-.sobre__paragrafo span {
+.about__paragraph span {
   display: block;
   font-weight: bold;
   margin: 5px 0;
 }
 
-.sobre__link {
+.about__link {
   color: #e21a1b;
   font-weight: bold;
   transition: all .5s ease;
 }
 
-.sobre__link:hover {
+.about__link:hover {
   color: #c21a1b;
 }

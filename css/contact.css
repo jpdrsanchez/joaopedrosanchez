@@ -1,9 +1,9 @@
-.contato {
+.contact {
   background: #f1f1f1;
   padding: 60px 0;
 }
 
-.contato__container {
+.contact__container {
   display: flex;
   align-items: stretch;
   flex-direction: column;
@@ -11,47 +11,47 @@
 }
 
 @media (min-width: 768px) {
-  .contato__container {
+  .contact__container {
     flex-direction: row;
   }
 }
 
-.contato__form {
+.contact__form {
   flex: 1 1 calc(50% - 30px);
   margin: 0 15px;
 }
 
 @media (min-width: 768px) {
-  .contato__form {
+  .contact__form {
     padding-right: 50px;
   }
 }
 
-.contato__informacoes {
+.contact__informations {
   display: none;
   flex: 1 1 calc(50% - 30px);
   margin: 0 15px;
 }
 
 @media (min-width: 768px) {
-  .contato__informacoes {
+  .contact__informations {
     display: block;
   }
 }
 
-.contato__imagem {
+.contact__image {
   max-width: 70%;
   margin: 0 auto;
 }
 
-.contato__label {
+.contact__label {
   display: block;
   font-size: 1.125rem;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.contato__input, .contato__textarea {
+.contact__input, .contact__textarea {
   background: #f1f1f1;
   border: 2px solid #1a1a18; 
   border-radius: 5px;
@@ -63,13 +63,13 @@
   width: 100%;
 }
 
-.contato__textarea {
+.contact__textarea {
   resize: none;
   height: 100px;
   margin-bottom: 30px;
 }
 
-.contato__button {
+.contact__button {
   background: #f1f1f1;
   border: 2px solid #1a1a18;
   border-radius: 5px;
@@ -82,28 +82,28 @@
   width: 50%;
 }
 
-.contato__button:hover {
+.contact__button:hover {
   letter-spacing: .3rem;
 }
 
-.contato__span {
+.contact__span {
   display: block;
   margin-bottom: 15px;
 }
 
-.contato__subtitulo {
+.contact__subtitle {
   font-size: 1.125rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.contato__item {
+.contact__item {
   margin-bottom: 5px;
   font-size: 0.875rem;
   line-height: 1.4;
 }
 
-.contato__item::before {
+.contact__item::before {
   content: "";
   background: #e21a1b;
   border: 2px solid #1a1a18;

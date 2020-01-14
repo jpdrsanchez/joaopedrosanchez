@@ -4,7 +4,6 @@ const menu = document.querySelector('.main-menu');
 const menuiTem = document.querySelectorAll('.main-menu__link');
 const main = document.querySelector('.main');
 const header = document.querySelector('.header');
-const abrir = document.querySelectorAll('.experiencia__card')
 
 function abrirMenu() {
   menu.classList.toggle('main-menu--active');
@@ -32,17 +31,10 @@ function menuScroll() {
   }
 }
 
-function girarAbrir() {
-  abrir.forEach(function(item) {
-    item.classList.toggle('experiencia__card--active');
-  });
-}
-
-abrir.forEach(function(item) {
-  item.addEventListener('click', girarAbrir);
-});
 menuMobile.addEventListener('click', abrirMenu);
+
 menuiTem.forEach(function(item) {
   item.addEventListener('click', fecharMenu);
 });
+
 document.addEventListener('scroll', menuScroll);
