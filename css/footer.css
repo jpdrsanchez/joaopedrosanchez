@@ -1,0 +1,29 @@
+.footer {
+  background: #1a1a18;
+}
+
+.footer__container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__container .header__social-media {
+  flex: 0 1 auto;
+  justify-self: flex-end;
+}
+
+.footer__text {
+  color: #f1f1f1;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.footer__link {
+  color: #f1f1f1;
+  transition: all .3s ease;
+}
+
+.footer__link:hover {
+  color: #e21a1b;
+}

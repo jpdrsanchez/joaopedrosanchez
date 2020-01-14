@@ -1,0 +1,61 @@
+.quote {
+  background: url('../img/quote-bg.jpg') no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 90px 15px;
+}
+
+.quote__container {
+  line-height: 1.2;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .quote__container {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .quote__container {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  .quote__container {
+    max-width: 70%;
+  }
+}
+
+.quote__texto {
+  color: #f1f1f1;
+  font-family: 'Alice', serif;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+  .quote__texto {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .quote__texto {
+    font-size: 3rem;
+  }
+}
+
+
+.quote__autor {
+  color: #f1f1f1;
+  font-size: 1.125rem;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}

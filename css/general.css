@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Pulsar';
+  src: url('../fonts/Pulsar-Original.otf');
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.titulo {
+  color: #1a1a1a;
+  /* font-family: 'Pulsar'; */
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: .2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.titulo::after {
+  content: "";
+  display: block;
+  background: #1a1a1a;
+  width: 100px;
+  height: 4px;
+  margin: 10px auto 60px auto;
+  border-radius: 5px;
+}
+
+.titulo--white {
+  color: #f1f1f1;
+}
+
+.titulo--white::after {
+  background: #f1f1f1;
+}
+
+.subtitulo {
+  font-size: 1.125rem;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.btn-up {
+  display: block;
+  width: 30px;
+  margin: 0 auto;
+}

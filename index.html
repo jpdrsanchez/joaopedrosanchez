@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>João Pedro - Desenvolvimento Web</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alice&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header class="header">
+    <nav class="container header__nav">
+      <ul class="header__social-media">
+        <li class="header__social-item">
+          <a class="header__social-link" href="https://www.linkedin.com/in/jpdrsanchez/" target="_blank">
+            <img class="header__social-image" src="img/linkedin.svg" alt="Linkedin">
+          </a>
+        </li>
+        <li class="header__social-item">
+          <a class="header__social-link" href="https://github.com/jpdrsanchez" target="_blank">
+            <img class="header__social-image" src="img/github.svg" alt="Github">
+          </a>
+        </li>
+      </ul>
+      <a class="header__logo" href="index.html">
+        <img class="header__image" src="img/icon.svg" alt="João Pedro">
+      </a>
+
+      <a class="menu-mobile" href="#">
+        <div class="menu-mobile__icon"></div>
+      </a>
+
+      <ul class="main-menu">
+        <li class="main-menu__item">
+          <a  class="main-menu__link" href="#sobre">Sobre</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#portfolio">Portfólio</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#servicos">Serviços</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link main-menu__link--no-padding" href="#contato">Contato</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="main">
+    <div class="main__logo">
+      <img src="img/logo.svg" alt="João Pedro">
+    </div>
+    <h1 class="main__title">Desenvolvedor Front-End • HTML5 • CSS3 • JavaScript</h1>
+    <div class="main__call">
+      <a class="main__button" href="#sobre">sobre</a>
+      <a class="main__button" href="#">currículo</a>
+    </div>
+  </main>
+
+  <section id="sobre" class="sobre">
+    <h1 class="titulo">Sobre Mim</h1>
+    <div class="container sobre__container">
+      <div class="sobre__imagem">
+        <img src="img/sobre.jpg" alt="Sobre Mim">
+      </div>
+      <div class="sobre__texto">
+        <p class="sobre__paragrafo">
+          Me chamo João Pedro, tenho 22 anos, sou apaixonado por técnologia e atualmente estou cursando Análise e Desenvolvimento de Sistemas.
+        </p>
+        <p class="sobre__paragrafo">
+          Tenho por objetivo poder atuar com <em>Desenvolvimento Web</em>, pois é a área que tenho estudado para poder me desenvolver mais e mais.
+        </p>
+        <p class="sobre__paragrafo">
+          Além da faculdade, também busco me especializar no <em>Desenvolvimento Web</em> por meio de plataformas online. Dentre elas posso citar a 
+          <a class="sobre__link" href="https://www.origamid.com/" title="Origamid" target="_blank">Origamid</a> 
+          e a 
+          <a class="sobre__link" href="https://www.udemy.com/" title="Udemy" target="_blank">Udemy</a>.
+        </p>
+        <p class="sobre__paragrafo">
+          Dentre as técnologias que tenho estudado posso citar: 
+          <span>FRONT-END: <em>HTML5, CSS3, JavaScript (ES6+) e Wordpress.</em></span>
+          <span>BACK-END: <em>C# (ASP.NET) e SQL.</em></span>
+          E dentre as técnologias que ainda quero aprender posso citar:
+          <span>FRONT-END: <em>ReactJS, React Native</em></span>
+          <span>BACK-END: <em>NodeJs.</em></span>
+        </p>
+        <p class="sobre__paragrafo">
+          Acredito que é maravilhoso buscar aprendizado e mais maravilhoso ainda buscá-lo com um objetivo que lhe motiva a aprender cada vez mais.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h1 class="titulo titulo--white">Portfólio</h1>
+    <div class="portfolio__container">
+      <div class="portfolio__item">
+        <img class="portfolio__img" src="img/bikcraft.jpg" alt="bikcraft">
+        <div class="portfolio__hover">
+          <span class="portfolio__text">Bikcraft</span>
+          <div class="portfolio__icons">
+            <img class="portfolio__icon" src="img/html.svg" alt="html5">
+            <img class="portfolio__icon" src="img/css.svg" alt="css3">
+            <img class="portfolio__icon" src="img/javascript.svg" alt="JavaScript">
+          </div>
+          <a  class="portfolio__button" href="#" title="Acessar">Acessar</a>
+        </div>
+      </div>
+      <div class="portfolio__item">
+        <img class="portfolio__img" src="img/Brafe.jpg" alt="Brafe">
+        <div class="portfolio__hover">
+          <span class="portfolio__text">Brafe</span>
+          <div class="portfolio__icons">
+            <img class="portfolio__icon" src="img/html.svg" alt="html5">
+            <img class="portfolio__icon" src="img/css.svg" alt="css3">
+          </div>
+          <a  class="portfolio__button" href="#" title="Acessar">Acessar</a>
+        </div>
+      </div>
+      <div class="portfolio__item">
+        <img class="portfolio__img" src="img/flexblog.jpg" alt="FlexBlog">
+        <div class="portfolio__hover">
+          <span class="portfolio__text">Flexbog</span>
+          <div class="portfolio__icons">
+            <img class="portfolio__icon" src="img/html.svg" alt="html5">
+            <img class="portfolio__icon" src="img/css.svg" alt="css3">
+          </div>
+          <a  class="portfolio__button" href="#" title="Acessar">Acessar</a>
+        </div>
+      </div>
+      <div class="portfolio__item">
+        <img class="portfolio__img" src="img/surfbot.jpg" alt="Surfbot">
+        <div class="portfolio__hover">
+          <span class="portfolio__text">Surfbot</span>
+          <div class="portfolio__icons">
+            <img class="portfolio__icon" src="img/html.svg" alt="html5">
+            <img class="portfolio__icon" src="img/css.svg" alt="css3">
+            <img class="portfolio__icon" src="img/javascript.svg" alt="JavaScript">
+          </div>
+          <a  class="portfolio__button" href="#" title="Acessar">Acessar</a>
+        </div>
+      </div>
+      <div class="portfolio__item">
+        <img class="portfolio__img" src="img/cloubudget.jpg" alt="Cloudbudget">
+        <div class="portfolio__hover">
+          <span class="portfolio__text">Cloudbudget</span>
+          <div class="portfolio__icons">
+            <img class="portfolio__icon" src="img/html.svg" alt="html5">
+            <img class="portfolio__icon" src="img/css.svg" alt="css3">
+          </div>
+          <a  class="portfolio__button" href="#" title="Acessar">Acessar</a>
+        </div>
+      </div>
+      <div class="portfolio__item">
+        <img class="portfolio__img" src="img/zojie.jpg" alt="Zojie">
+        <div class="portfolio__hover">
+          <span class="portfolio__text">Zojie</span>
+          <div class="portfolio__icons">
+            <img class="portfolio__icon" src="img/html.svg" alt="html5">
+            <img class="portfolio__icon" src="img/css.svg" alt="css3">
+          </div>
+          <a  class="portfolio__button" href="#" title="Acessar">Acessar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="servicos">
+    <h1 class="titulo">Serviços</h1>
+    <div class="container servicos__container">
+      <div class="servicos__item">
+        <img class="servicos__img" src="img/html-item.svg" alt="html">
+        <h2 class="subtitulo servicos__subtitulo">Front-End</h2>
+        <p class="servicos__texto">Se você já possuí a arte para o seu site, realizo todo o desenvolvimento front-end de seu projeto</p>
+      </div>
+      <div class="servicos__item">
+        <img class="servicos__img" src="img/responsive.svg" alt="html">
+        <h2 class="subtitulo servicos__subtitulo">Responsivo</h2>
+        <p class="servicos__texto two">Seu site adáptavel em todos os dipositivos móveis</p>
+      </div>
+      <div class="servicos__item">
+        <img class="servicos__img" src="img/analytics.svg" alt="html">
+        <h2 class="subtitulo servicos__subtitulo">Analytics</h2>
+        <p class="servicos__texto three">Obtenha relatórios completos de acesso ao seu site com o Google Analytics</p>
+      </div>
+      <div class="servicos__item">
+        <img class="servicos__img" src="img/admin.svg" alt="html">
+        <h2 class="subtitulo servicos__subtitulo">Gerenciavel</h2>
+        <p class="servicos__texto four">Seu site totalmente gerenciavel em Wordpress sem a necessidade de um programador</p>
+      </div>
+      <a class="servicos__button" href="#contato">Contato</a>
+    </div>
+  </section>
+
+  <section class="quote">
+    <blockquote class="quote__container">
+      <p class="quote__texto">"A alegria que se tem em pensar e aprender faz-nos pensar e aprender ainda mais."</p>
+      <cite class="quote__autor">Aristóteles</cite>
+    </blockquote>
+  </section>
+
+  <section id="contato" class="contato">
+    <h1 class="titulo">Contato</h1>
+    <div class="container contato__container">
+      <form class="contato__form" action="#">
+        <label class="contato__label" for="nome">Nome</label>
+        <input class="contato__input" type="text" name="nome" id="nome">
+        <label class="contato__label" for="email">E-mail</label>
+        <input class="contato__input" type="text" name="email" id="email">
+        <label class="contato__label" for="mensagem">Mensagem</label>
+        <textarea class="contato__textarea" name="mensagem" id="mensagem"></textarea>
+        <button class="contato__button" type="submit">Enviar</button>
+      </form>
+      <!-- <div class="contato__informacoes">
+        <img class="contato__imagem" src="img/contato.svg" alt="Contato">
+      </div> -->
+      <div class="contato__informacoes">
+        <h2 class="contato__subtitulo">Contatos</h2>
+        <ul class="contato__list">
+          <li class="contato__item">joaopedrosanchez302@gmail.com</li>
+          <li class="contato__item">@jpdrsachez</li>
+          <li class="contato__item">+55 11 944694216</li>
+          <li class="contato__item">youtube.com/user/1pedrosanchez</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <p class="footer__text">Copyright &copy; 2020 - <a class="footer__link" href="#">João Pedro Sanchez</a>.</p>
+      <ul class="header__social-media">
+        <li class="header__social-item">
+          <a class="header__social-link" href="https://www.linkedin.com/in/jpdrsanchez/" target="_blank">
+            <img class="header__social-image" src="img/linkedin.svg" alt="Linkedin">
+          </a>
+        </li>
+        <li class="header__social-item">
+          <a class="header__social-link" href="https://github.com/jpdrsanchez" target="_blank">
+            <img class="header__social-image" src="img/github.svg" alt="Github">
+          </a>
+        </li>
+        <li class="header__social-item">
+          <a class="header__social-link" href="#main" title="subir">
+            <img class="header__social-image" src="img/up.svg" alt="subir">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  
+  <script src="js/scripts.js"></script>
+</body>
+</html>

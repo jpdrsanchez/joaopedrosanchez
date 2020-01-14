@@ -1,0 +1,54 @@
+/* 
+Black: #1a1a18
+Green: #15785a
+Green2: #52BAA3
+White: #f5f6f6
+*/
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: all .5s ease-in;
+  padding-top: 20px;
+  z-index: 10000;
+}
+
+.header--active {
+  background: #1a1a18;
+  padding-top: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.header__nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.header__logo {
+  display: block;
+  padding: 10px 0;
+  flex: 1;
+}
+
+.header__image {
+  margin: 0 auto;
+}
+
+.header__social-media {
+  display: flex;
+  flex: 1;
+}
+
+.header__social-link {
+  display: block;
+  padding: 15px 5px;
+}
+
+.header__social-image {
+  width: 30px;
+}
+
+/* MCVJJG2vJMVvNq@Hj)(d */
