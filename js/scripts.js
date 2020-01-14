@@ -8,12 +8,14 @@ const header = document.querySelector('.header');
 function abrirMenu() {
   menu.classList.toggle('main-menu--active');
   menuIcon.classList.toggle('menu-mobile__icon--active');
+  document.body.classList.toggle("stop-scrolling");
   event.preventDefault();
 }
 
 function fecharMenu() {
   menu.classList.remove('main-menu--active');
   menuIcon.classList.remove('menu-mobile__icon--active');
+  document.body.classList.remove("stop-scrolling");
 }
 
 function menuScroll() {
