@@ -36,10 +36,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: show .5s forwards;
+  animation: mostrar .5s forwards; 
 }
 
-@keyframes show {
+@keyframes mostrar {
   from {
     opacity: 0;
     transform: translate3d(0, 300px, 0);
