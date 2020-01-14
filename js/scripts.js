@@ -8,6 +8,7 @@ const header = document.querySelector('.header');
 function abrirMenu() {
   menu.classList.toggle('main-menu--active');
   menuIcon.classList.toggle('menu-mobile__icon--active');
+  event.preventDefault();
 }
 
 function fecharMenu() {
